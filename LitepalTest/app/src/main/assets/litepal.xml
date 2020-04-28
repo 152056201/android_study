@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="Test"></dbname>
+    <version value="1"></version>
+    <list>
+        <Mapping class="com.example.litepaltest.Student"></Mapping>
+        <Mapping class="com.example.litepaltest.Teacher"></Mapping>
+    </list>
+</litepal>

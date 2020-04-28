@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowFruit">
+
+    <ImageView
+        android:id="@+id/show_fruit"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/apple" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="名称：苹果（apple）"
+        android:layout_below="@id/show_fruit"
+        android:layout_marginLeft="50dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="价格：5.8/斤"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="50dp"/>
+</RelativeLayout>
