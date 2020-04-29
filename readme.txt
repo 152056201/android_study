@@ -11,3 +11,4 @@ Creating a new branch is quick & simple.
 =======
 如何解决冲突
 >>>>>>> feature1
+aaaaaaaaaaaaaaaaaaaa
